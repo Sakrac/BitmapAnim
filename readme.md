@@ -46,6 +46,10 @@ A "stripe" is just a bunch of characters in sequence on the bitmap screen and lo
 	dc.b $00, $00, $00, $00, $00, $00, $00, $40 ; char 0
 ```
 
+## Example Playback ##
+
+Look in the 6502 folder for an example implementation for drawing animation frames. Note that the initial image is not provided by the system.
+
 ## Notes ##
 
 As should be obvious the more characters that change on-screen the bigger the data, but also requires more cycles to draw.
